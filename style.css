@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+.bodyImg{
+
+    width: 100%;
+    height: 600px;
+    background-image: url(bg.jpg);
+    background-size: cover;
+
+}
+
+.bodyImg .line1{
+    color:aliceblue;
+    text-align: center;
+    transform: translate(0px, 200px);
+    font-size: 0.5cm;
+    font-family:cursive;
+}
+
+.grid{ 
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.grid img{
+
+    align-content: center;
+    margin:0.5cm;
+    padding:0.5cm;
+    border: 2px solid black;
+    border-radius: 1cm;
+}
+
+.origami{
+
+    margin:0.5cm;
+    padding:0.5cm;
+    text-align: center;
+    background: white;
+    width:300px;
+    font-family: fantasy;
+
+}
+
+.grid2{ 
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.grid2 img{
+
+    align-content: center;
+    margin:0.5cm;
+    padding:0.5cm;
+    border: 2px solid black;
+    border-radius: 1cm;
+}
